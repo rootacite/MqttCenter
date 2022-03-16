@@ -10,3 +10,7 @@ Server.ClientVerification += (MqttSession mqttSession, string clientId, string u
   };
 
 Server.ServerStart(54234);
+while(true)
+{
+    _ = Console.ReadLine();
+}
